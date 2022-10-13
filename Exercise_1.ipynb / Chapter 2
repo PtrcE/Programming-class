@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOkBnNKD6kiSIsOQYqBMnWh",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/PtrcE/Programming-class/blob/main/Exercise_1.ipynb%20/%20Chapter%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ltnkWCVIBsY9",
+        "outputId": "6872a9d3-52c9-4915-b818-a49846858a07"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hi! I am Patricia\n",
+            "How are you?\n"
+          ]
+        }
+      ],
+      "source": [
+        "a= 'Hi! I am Patricia'\n",
+        "print(a)\n",
+        "\n",
+        "a= 'How are you?'\n",
+        "print(a)"
+      ]
+    }
+  ]
+}
