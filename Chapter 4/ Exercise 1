@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMI9cje1F6kHRbAf9O4LQVO",
+      "authorship_tag": "ABX9TyMvYxTzNP+kf7Uefj+Es2U0",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -30,14 +30,15 @@
       "cell_type": "code",
       "source": [
         "#Exercise 1: Alien color 1.0\n",
-        "alien_color=str(input(\"Color of Alien:\"))\n",
-        "\n",
+        "alien_color='green'\n",
         "if alien_color =='green':\n",
         "  print('You earned 5 points')\n",
-        "if alien_color =='yellow':\n",
+        "alien_color='yellow'\n",
+        "if alien_color =='green':\n",
         "  print('You earned 5 points')\n",
-        "if alien_color =='red':\n",
-        "  print('You earned 5 points')\n"
+        "alien_color='red'\n",
+        "if alien_color =='green':\n",
+        "  print('You earned 5 points')"
       ],
       "metadata": {
         "id": "rVdF-jOxf_ak"
