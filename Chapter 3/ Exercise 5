@@ -1,0 +1,69 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP7W2yooRzjFR6D5nMajGgR",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/PtrcE/Programming-class/blob/main/Chapter%203/%20Exercise%205\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Exercise 5: Change Guest List\n",
+        "\n",
+        "guest = [\"Ann Hathaway\", \"Jennifer Aniston\", \"Zendeya\"]\n",
+        "\n",
+        "print(\"Sorry to inform you, but\", guest[1],\" would not be able to join that evening.\")\n",
+        "print(\"\\n\")\n",
+        "\n",
+        "guest[1] = 'Gal Gadot'\n",
+        "\n",
+        "print(\"Greetings,\", guest[0],\"you are happily invited to join us at Atlantis for Patricia's dinner party on November 2, 2022 at 7pm\")\n",
+        "print(\"Greetings ,\", guest[1],\"you are happily invited to join us at Atlantis for Patricia's dinner party on November 2, 2022 at 7pm\")\n",
+        "print(\"Greetings,\", guest[2],\"you are happily invited to join us at Atlantis for Patricia's dinner party on November 2, 2022 at 7pm\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fnsRpBRmajH8",
+        "outputId": "b2abf5fd-fbd3-4ae3-db83-4fa6862d0865"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Sorry to inform you, but Jennifer Aniston  would not be able to join that evening.\n",
+            "\n",
+            "\n",
+            "Greetings, Ann Hathaway you are happily invited to join us at Atlantis for Patricia's dinner party on November 2, 2022 at 7pm\n",
+            "Greetings , Gal Gadot you are happily invited to join us at Atlantis for Patricia's dinner party on November 2, 2022 at 7pm\n",
+            "Greetings, Zendeya you are happily invited to join us at Atlantis for Patricia's dinner party on November 2, 2022 at 7pm\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
